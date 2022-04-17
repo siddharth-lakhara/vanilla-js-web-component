@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Component</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <h2>Web component using Vanilla JS</h2>
+  
+  <h3>Example 1</h3>
+  <simple-component name="John Doe"></simple-component>
+
+  <h3>Example 2</h3>
+  <slot-example>
+    <span>This is shown in slot tag</span>
+    <div slot="named">Named Slot</div>
+  </slot-example>
+
+  <h3>Example 3</h3>
+  <user-card name="Siddharth Lakhara">
+    <div slot="EMail">a.b@gmail.com</div>
+    <div slot="Phone">123456789</div>
+    <div slot="Adress">Nowhere street, Nowhere town, India</div>
+  </user-card>
+  
+  <script src="simpleComponent.js"></script>
+  <script src="slotExample.js"></script>
+  <script src="userCard.js"></script>
+</body>
+</html>

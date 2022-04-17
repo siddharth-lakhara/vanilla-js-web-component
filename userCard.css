@@ -1,0 +1,23 @@
+h3 {
+  color: purple;
+}
+
+.user-card {
+  margin: 10px;
+}
+
+.user-card > div {
+  padding-bottom: 5px;
+}
+
+button {
+  background: purple;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
